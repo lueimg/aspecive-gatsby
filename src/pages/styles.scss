@@ -1,0 +1,225 @@
+@charset "utf-8";
+// Copymystyles.scss: copy code to clipboard
+// If need, change your variables before importing Bulma
+// $title-color: #ff0000;
+@import "~bulma/bulma.sass";
+
+
+
+
+dev*:not(path):not(g) {
+    color: hsla(210, 100%, 100%, 0.9) !important;
+    background: hsla(210, 100%, 50%, 0.5) !important;
+    outline: solid 0.25rem hsla(210, 100%, 100%, 0.5) !important;
+    box-shadow: none !important;
+}
+
+
+// ######
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* More info: https://bit.ly/2PsCnzk */
+* + * {
+ // margin-top: 1rem;
+}
+
+html,
+body {
+  margin: 0;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.4;
+
+  @media (min-width: calc(550px + 10vw)) {
+    font-size: 18px;
+  }
+
+  /* remove margin for the main div that Gatsby mounts into */
+  > div {
+    margin-top: 0;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #222;
+  line-height: 1.1;
+
+  + * {
+    margin-top: 0.5rem;
+  }
+}
+
+strong {
+  color: #222;
+}
+
+li {
+  margin-top: 0.25rem;
+}
+// ######
+
+html,body {
+  width: 100%;
+  height: 100%;
+  background: #f3f7fa;
+  font-family: "Open Sans",sans-serif;
+  min-width: 1000px;
+  min-height: 500px;
+  color: #333;
+  overflow: visible;
+}
+
+.icons {
+  display: inline-block;
+}
+
+.icon-wrap {
+  display: inline-block;
+  padding: 1.2rem;
+  color: #fff;
+}
+
+.icon-wrap.email {
+  background: #da491c;
+}
+.icon-wrap.fb {
+  background: #3a5795;
+
+}
+.icon-wrap.tw {
+  background: #00aeef;
+}
+
+.page-block {
+  margin-top: 2rem;
+}
+
+.block-bg-a {
+  background: #f3f7fa;
+}
+.block-bg-b {
+  background: #fff;
+}
+
+.block-bg-c {
+  background: #383838;
+  color: #fff;
+  padding: 50px 100px;
+}
+
+.aspecive-details {
+  margin-top: 0;
+}
+
+.mt-0  {
+  margin-top: 0 !important;
+}
+
+.mt-1 {
+  margin-top: 1rem !important;
+}
+.mt-2 {
+  margin-top: 2rem !important;
+}
+
+.contact-form-button {
+  background: #da491c !important;
+}
+
+.block-form {
+  padding: 50px 100px;
+
+}
+
+.asd-title {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.asd-icons {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.asd-icons-item {
+  display: flex;
+  align-items: center;
+}
+
+.ic-item-icon {
+  font-size: 4rem;
+  color: #da491c;
+}
+
+.ic-item-num {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-right: 2rem;
+}
+
+.ic-item-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 2rem;
+}
+
+.msg-title {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-top: 4rem;
+  color: #da491c;
+}
+
+.msg-title-text {
+  display: inline-block;
+  position: relative;
+  padding: 0 3rem;
+  margin-bottom: 2rem;
+}
+.msg-title-text::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  bottom: -.5rem;
+  left: 0;
+  background: #da491c;
+}
+
+.mgs-title-column {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #da491c;
+}
+
+.msg-body p {
+  margin-bottom: 1rem;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+.subtitle {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.contact-form {
+  margin-top: 4rem;
+}
+
+.form-column {
+  margin-left: 2rem;
+}
+
+.form-column input {
+  margin-bottom: 1rem;
+}
