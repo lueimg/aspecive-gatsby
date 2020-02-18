@@ -4,7 +4,7 @@ function ContactForm() {
     return (
         <div className=" page-block block-form ">
             <div className="columns is-centered">
-                <div classNam="column is-3">
+                <div className="column is-3">
                     <div className="msg-title mt-0">
                         <span className="msg-title-text">
                         Escribenos
@@ -27,10 +27,10 @@ function ContactForm() {
                 <div className="column is-6">
                     <div className="columns">
                         <div className="column is-10 is-offset-1">
-                            <input class="input" type="text" placeholder="Nombre" />
-                            <input class="input mt-1" type="text" placeholder="Correo" />
-                            <textarea  class="textarea mt-1"  placeholder="Mensaje"></textarea>
-                            <button class="contact-form-button button is-link mt-1">Enviar Mensaje</button>
+                            <input className="input" type="text" placeholder="Nombre" />
+                            <input className="input mt-1" type="text" placeholder="Correo" />
+                            <textarea  className="textarea mt-1"  placeholder="Mensaje"></textarea>
+                            <button className="contact-form-button button is-link mt-1">Enviar Mensaje</button>
                         </div>
                     </div>
                 </div>

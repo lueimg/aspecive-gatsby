@@ -73,16 +73,16 @@ const Header = () => (
       <NavLink to='/noticias' activeClassName='current-page'>
         Noticias
       </NavLink>
-      <NavLink to='/estatuto/' activeClassName='current-page'>
+      <NavLink to='/estatuto' activeClassName='current-page'>
         Estatuto
       </NavLink>
-      <NavLink to='/historia/' activeClassName='current-page'>
-        History
+      <NavLink to='/historia' activeClassName='current-page'>
+        Historia
       </NavLink>
-      <NavLink to='/directiva/' activeClassName='current-page'>
+      <NavLink to='/directiva' activeClassName='current-page'>
         Directiva
       </NavLink>
-      <NavLink to='/miembros/' activeClassName='current-page'>
+      <NavLink to='/miembros' activeClassName='current-page'>
         Miembros
       </NavLink>
 

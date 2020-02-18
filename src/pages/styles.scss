@@ -14,6 +14,16 @@ dev*:not(path):not(g) {
     box-shadow: none !important;
 }
 
+#gatsby-focus-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
 
 // ######
 * {
@@ -130,6 +140,14 @@ html,body {
   margin-top: 2rem !important;
 }
 
+.p-0 {
+  padding: 0 !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
 .contact-form-button {
   background: #da491c !important;
 }
@@ -194,6 +212,11 @@ html,body {
   left: 0;
   background: #da491c;
 }
+.msg-title-text.line-bg-gray::after {
+  background: #eeeeee;
+}
+
+
 
 .mgs-title-column {
   font-size: 2rem;
@@ -222,4 +245,51 @@ html,body {
 
 .form-column input {
   margin-bottom: 1rem;
+}
+
+.directiva-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+li.directiva-item {
+  font-size: 1em;
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  margin-bottom: 20px;
+}
+
+.directiva-imagen {
+  min-height: 150px;
+  text-align: center;
+}
+
+.directiva-text {
+  text-align: center;
+  font-size: 1.4em;
+}
+
+
+.columnas {
+  width: 100%;
+  min-height: 20px;
+  overflow: hidden;
+}
+
+.columnas li {
+  display: block;
+  position: relative;
+  width: 30%;
+  min-height: 3.2em;
+  overflow: hidden;
+  float: left;
+  font-size: 14px;
+  line-height: 1.4em;
+  margin-bottom: 9px;
+  margin-right: 3.3%;
+  border-bottom: 1px solid #cfcfcf;
+  padding: 8px 0;
 }

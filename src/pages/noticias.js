@@ -12,8 +12,8 @@ export default () => {
         <div className='container'>
           <div className='columns is-centered'>
             <div className='column is-8'>
-              <div className='msg-title'>
-                <div className='msg-title-text'>Noticias</div>
+              <div className='msg-title '>
+                <div className='msg-title-text line-bg-gray p-0 w-100'>Noticias</div>
               </div>
             </div>
           </div>

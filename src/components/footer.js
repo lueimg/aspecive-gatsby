@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <>
             <div className="footer block-bg-c has-text-centered">
-                Copyright © 2020 The Linux Foundation®. All rights reserved.
+                Copyright © 2020 Asociación Peruana de Cirugía Vertebral®. All rights reserved.
             </div>
         </>
     )
