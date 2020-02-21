@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from '../components/layout'
-import Banners from '../components/Banners'
+import Banners from '../components/banners'
 import PresidentMessage from '../components/president-message';
 import Gallery from '../components/gallery';
 import ContactForm from '../components/contact-form';
