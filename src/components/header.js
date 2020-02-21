@@ -25,7 +25,7 @@ const NavLink = styled(Link)`
   &.current-page {
     //border-bottom: 2px solid #222;
   }
-
+  &.active,
   &:hover {
     background: #555;
     color: #fff;
@@ -70,19 +70,25 @@ const Header = () => (
         margin-top: 0;
       `}
     >
-      <NavLink to='/noticias' activeClassName='current-page'>
+      <NavLink to='/' activeClassName='current-page active'>
+        Inicio
+      </NavLink>
+      <NavLink to='/congreso' activeClassName='current-page active'>
+        IV Congreso
+      </NavLink>
+      <NavLink to='/noticias' activeClassName='current-page active'>
         Noticias
       </NavLink>
-      <NavLink to='/estatuto' activeClassName='current-page'>
+      <NavLink to='/estatuto' activeClassName='current-page active'>
         Estatuto
       </NavLink>
-      <NavLink to='/historia' activeClassName='current-page'>
+      <NavLink to='/historia' activeClassName='current-page active'>
         Historia
       </NavLink>
-      <NavLink to='/directiva' activeClassName='current-page'>
+      <NavLink to='/directiva' activeClassName='current-page active'>
         Directiva
       </NavLink>
-      <NavLink to='/miembros' activeClassName='current-page'>
+      <NavLink to='/miembros' activeClassName='current-page active'>
         Miembros
       </NavLink>
 

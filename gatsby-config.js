@@ -7,17 +7,26 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'Frontend Masters Gatsby Workshop',
+    title: 'Aspecive | Asociacion Peruana de Cirugia Vertebral',
     description:
-      'A site we built together during a full-day Frontend Masters Gatsby workshop!',
+      'Asociacion Peruana de Cirugia Vertebral',
   },
   plugins: [
     'gatsby-plugin-emotion',
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    'gatsby-transformer-remark',
     `gatsby-plugin-sass`,
+    {
+      resolve:'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-images'
+          }
+        ]
+      }
+    },
     {
       resolve: 'gatsby-plugin-mdx',
       options: {
