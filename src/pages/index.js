@@ -6,7 +6,6 @@ import Gallery from '../components/gallery';
 import ContactForm from '../components/contact-form';
 import Map from '../components/Map';
 import AspeciveDetails from '../components/aspecive-details';
-import "./styles.scss";
 
 export default () => {
 

@@ -73,22 +73,22 @@ const Header = () => (
       <NavLink to='/' activeClassName='current-page active'>
         Inicio
       </NavLink>
-      <NavLink to='/congreso' activeClassName='current-page active'>
+      <NavLink to='/congreso/' activeClassName='current-page active'>
         IV Congreso
       </NavLink>
-      <NavLink to='/noticias' activeClassName='current-page active'>
+      <NavLink to='/noticias/' activeClassName='current-page active'>
         Noticias
       </NavLink>
-      <NavLink to='/estatuto' activeClassName='current-page active'>
+      <NavLink to='/estatuto/' activeClassName='current-page active'>
         Estatuto
       </NavLink>
-      <NavLink to='/historia' activeClassName='current-page active'>
+      <NavLink to='/historia/' activeClassName='current-page active'>
         Historia
       </NavLink>
-      <NavLink to='/directiva' activeClassName='current-page active'>
+      <NavLink to='/directiva/' activeClassName='current-page active'>
         Directiva
       </NavLink>
-      <NavLink to='/miembros' activeClassName='current-page active'>
+      <NavLink to='/miembros/' activeClassName='current-page active'>
         Miembros
       </NavLink>
 
