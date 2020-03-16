@@ -13,7 +13,7 @@ const NavLink = styled(Link)`
   color: #222;
   font-size: 1rem;
   font-weight: ${props => props.fontWeight || "normal"};
-  line-height: 1;
+  line-height: 1.8;
   margin: 0 0.5rem 0 0;
   padding: 0.25rem;
   text-decoration: none;
@@ -40,7 +40,7 @@ const Header = () => (
   <header
     css={css`
       //background: #eee;
-      border-bottom: 1px solid #ddd;
+      //border-bottom: 1px solid #ddd;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -57,10 +57,12 @@ const Header = () => (
       fontWeight='bold'
       css={css`
         text-transform: capitalize;
-        padding: 0.5rem 2rem;
+        padding: 0.55rem 2rem;
         font-size: 1.4rem;
         color: white;
         background: #da491c;
+        line-height: 1;
+
       `}
     >
       Asociacion Peruana <br /> de Cirugia Vertebral
