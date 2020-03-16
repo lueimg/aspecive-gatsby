@@ -15,7 +15,7 @@ export default () => {
 
       <div className='container'>
 
-        <div clasName="columns">
+        <div className="columns">
           <div className="column is-8 is-offset-2">
           <div className='columns'>
           {/* expositor start */}
