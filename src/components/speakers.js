@@ -2,32 +2,32 @@ import React from "react"
 
 const SpeakersGroup1 = [
   {
-    image: "/congreso/expositores/asdrubal.jpg",
-    name: "Dr. Asdrubal Falavigna",
-    twitter: "@Asdrubal",
+    image: "/congreso/expositores/DrAlexanderVaccaro.jpg",
+    name: "Dr. Alexander Vaccaro",
+    twitter: "@DrAlexanderVaccaro",
     description: "",
   },
-  {
-    image: "/congreso/expositores/boulot.jpeg",
-    name: "Dr. boulot",
-    twitter: "@boulot",
-    description: "",
-  },
-  {
-    image: "/congreso/expositores/montero.jpg",
-    name: "Dr. Carlos Montero",
-    twitter: "@montero",
-    description: "",
-  },
+  // {
+  //   image: "/congreso/expositores/boulot.jpeg",
+  //   name: "Dr. boulot",
+  //   twitter: "@boulot",
+  //   description: "",
+  // },
+  // {
+  //   image: "/congreso/expositores/montero.jpg",
+  //   name: "Dr. Carlos Montero",
+  //   twitter: "@montero",
+  //   description: "",
+  // },
 ]
 
 const SpeakersGroup2 = [
-  {
-    image: "/congreso/expositores/vialle.jpg",
-    name: "Dr. Luis Vialle",
-    twitter: "@vialle",
-    description: "",
-  },
+  // {
+  //   image: "/congreso/expositores/vialle.jpg",
+  //   name: "Dr. Luis Vialle",
+  //   twitter: "@vialle",
+  //   description: "",
+  // },
 ]
 
 export default () => {
@@ -35,7 +35,7 @@ export default () => {
     <>
       <br />
 
-      <div className='container'>
+      <div className='speakers container'>
         <div className='columns'>
           <div className='column is-8 is-offset-2'>
 

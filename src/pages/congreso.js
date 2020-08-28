@@ -35,7 +35,7 @@ export default () => {
                       </div>
                       <div className="level-item">
                         <div className="logo-date is-family-sans-serif">
-                          23 al 25 abril 2020
+                          13 al 15 Mayo 2021
                         </div>
                       </div>
                     </div>

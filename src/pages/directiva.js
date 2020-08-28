@@ -22,7 +22,7 @@ export default () => {
             <div className='column is-8'>
               <h1>
                 <u>
-                  <strong css={css`font-size: 2rem;`}>Junta directiva 2015 – 2020</strong>
+                  <strong css={css`font-size: 2rem;`}>Junta directiva 2019 – 2021</strong>
                 </u>
               </h1>
 
@@ -37,29 +37,27 @@ export default () => {
                 <li className='directiva-item'>
                   <div className='directiva-imagen'>
                     <img
-                      alt='wesley'
                       className='alignnone size-full wp-image-49'
-                      src='/directiva/Dr.ElarCari.jpg'
-                      css={css`width: 100px; height: 150px;`}
+                      src='/directiva/DrAlfonsoBasurcopresidente.JPG'
+                      css={css` max-height: 150px;`}
                     />
                   </div>
 
                   <div className='directiva-text'>
-                    <strong>PRESIDENTE:</strong> Elar Cari Condori.
+                    <strong>PRESIDENTE:</strong> Alfonso Basurco Carpio
                   </div>
                 </li>
                 <li className='directiva-item'>
                   <div className='directiva-imagen'>
                     <img
-                      alt='Miguel Urday Villanueva'
                       className='alignnone size-full wp-image-46'
-                      src='/directiva/dr.urday.jpg'
-                      css={css`width: 117px; height: 150px;`}
+                      src='/directiva/Dr.Laos.jpg'
+                      css={css` max-height: 150px;`}
                     />
                   </div>
 
                   <div className='directiva-text'>
-                    <strong>VICEPRESIDENTE:</strong> Miguel Urday Villanueva
+                    <strong>VICEPRESIDENTE:</strong> Eduardo Laos Plasier 
                   </div>
                 </li>
                 <li className='directiva-item'>
@@ -67,13 +65,13 @@ export default () => {
                     <img
                       alt='chipana'
                       className='alignnone size-full wp-image-43'
-                      src='/directiva/Dr.EdgardMorales.jpg'
-                      css={css`width: 151px; height: 150px;`}
+                      src='/directiva/presi-1.jpg'
+                      css={css` max-height: 150px;`}
                     />
                   </div>
 
                   <div className='directiva-text'>
-                    <strong>SECRETARIO GENERAL:</strong> Edgar Morales Vásquez
+                    <strong>SECRETARIO GENERAL:</strong> Wesley Alaba García
                   </div>
                 </li>
                 <li className='directiva-item'>
@@ -81,13 +79,13 @@ export default () => {
                     <img
                       alt='cari'
                       className='alignnone size-full wp-image-42'
-                      src='/directiva/DR.ALFONSO%20BASURCO.jpg'
-                      css={css`width: 151px; height: 150px;`}
+                      src='/directiva/Dr.Sandoval.jpg'
+                      css={css` max-height: 150px;`}
                     />
                   </div>
 
                   <div className='directiva-text'>
-                    <strong>TESORERO:</strong> Alfonso Basurco Carpio
+                    <strong>TESORERO:</strong> Marvin Sandoval Cabrera 
                   </div>
                 </li>
                 <li className='directiva-item'>
@@ -95,14 +93,13 @@ export default () => {
                     <img
                       alt='chirinos'
                       className='alignnone size-full wp-image-44'
-                      src='/directiva/Dr.Laos.jpg'
-                      css={css`width: 128px; height: 150px;`}
+                      src='/directiva/DrEliasLira.jpeg'
+                      css={css` max-height: 150px;`}
                     />
                   </div>
 
                   <div className='directiva-text'>
-                    <strong>SECRETARIO DE FILIALES:</strong> Eduardo Laos
-                    Plasier
+                    <strong>SECRETARIO DE FILIALES:</strong> Elias Lira Mamani 
                   </div>
                 </li>
                 <li className='directiva-item'>
@@ -110,14 +107,14 @@ export default () => {
                     <img
                       alt='moralesdias'
                       className='alignnone size-full wp-image-47'
-                      src='/directiva/Dr.Sandoval.jpg'
-                      css={css`width: 123px; height: 150px;`}
+                      src='/directiva/-----'
+                      css={css` max-height: 150px;`}
                     />
                   </div>
 
                   <div className='directiva-text'>
-                    <strong>DIRECTOR DE ACCION CIENTIFICA:</strong> Marvin
-                    Sandoval Cabrera
+                    <strong>DIRECTOR DE ACCION CIENTIFICA:</strong> 
+                    Rene Chirinos Zegarra
                   </div>
                 </li>
                 <li className='directiva-item'>
@@ -125,14 +122,14 @@ export default () => {
                     <img
                       alt='moralesdias'
                       className='alignnone size-full wp-image-47'
-                      src='/directiva/Dr.Cauti.jpg'
-                      css={css`width: 109px; height: 150px;`}
+                      src='/directiva/DrEytylJimenez.jpeg'
+                      css={css` max-height: 150px;`}
                     />
                   </div>
 
                   <div className='directiva-text'>
-                    <strong>VOCAL DE PUBLICACIONES Y BIBLIOTECA:</strong> Daniel
-                    Cauti de la Cruz
+                    <strong>VOCAL DE PUBLICACIONES Y BIBLIOTECA:</strong> 
+                    Eytyl Jimenez Guevara
                   </div>
                 </li>
                 <li className='directiva-item'>
@@ -140,14 +137,14 @@ export default () => {
                     <img
                       alt='garcialuto'
                       className='alignnone size-full wp-image-51'
-                      src='/directiva/Jersonweb.JPG'
-                      css={css`width: 99px; height: 150px;`}
+                      src='/directiva/DrRobertBurgos.jpeg'
+                      css={css` max-height: 150px;`}
                     />
                   </div>
 
                   <div className='directiva-text'>
-                    <strong>VOCAL DE RELACIONES INSTITUCIONALES:</strong> Jerson
-                    Flores Castillo
+                    <strong>VOCAL DE RELACIONES INSTITUCIONALES:</strong> 
+                    Robert Burgos Coronado
                   </div>
                 </li>
                 <li className='directiva-item'>
@@ -155,14 +152,14 @@ export default () => {
                     <img
                       alt='Juan Coasaca Torres'
                       className='alignnone size-full wp-image-48'
-                      src='http://aspecive.com/workpress_velito/wp-content/uploads/2016/06/raulmacchi2.jpg'
-                      css={css`width: 150px; height: 150px;`}
+                      src='/directiva/dr.urday.jpg'
+                      css={css` max-height: 150px;`}
                     />
                   </div>
 
                   <div className='directiva-text'>
-                    <strong>VOCAL DE COORDINACION INTERNA:</strong> Juan Coasaca
-                    Torres
+                    <strong>VOCAL DE COORDINACION INTERNA:</strong> 
+                    Miguel Urday Villanueva
                   </div>
                 </li>
                 <li className='directiva-item'>
@@ -170,13 +167,13 @@ export default () => {
                     <img
                       alt='raulmacchi'
                       className='alignnone size-full wp-image-48'
-                      src='/directiva/presi-1.jpg'
-                      css={css`width: 109px; height: 150px;`}
+                      src='/directiva/Dr.ElarCari.jpg'
+                      css={css` max-height: 150px;`}
                     />
                   </div>
 
                   <div className='directiva-text'>
-                    <strong>PAST- PRESIDENT:</strong> Wesley Alaba García.
+                    <strong>PAST- PRESIDENT:</strong> Elar Cari Condori.
                   </div>
                 </li>
               </ul>
