@@ -5,7 +5,7 @@ import Image from "gatsby-image"
 function PresidentMessage () {
   const { image } = useStaticQuery(graphql`
     query {
-      image: file(relativePath: { eq: "Dr.ElarCari.jpg" }) {
+      image: file(relativePath: { eq: "DrAlfonsoBasurcopresidente.jpg" }) {
         sharp: childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp
@@ -62,7 +62,7 @@ function PresidentMessage () {
             </strong>
           </p>
           <p>Atentamente,</p>
-          <p>Dr. Elar Cari Condori.</p>
+          <p>Dr. Alfonso Basurco</p>
         </div>
       </div>
     </div>
