@@ -46,10 +46,10 @@ const Header = () => (
       align-items: center;
       //padding: 0.5rem 5vw;
 
-      @media (min-width: calc(550px + 10vw)) {
-        padding-left: calc((100vw - 550px - 0.5rem) / 2);
-        padding-right: calc((100vw - 550px - 0.5rem) / 2);
-      }
+      // @media (min-width: calc(550px + 10vw)) {
+      //   padding-left: calc((100vw - 550px - 0.5rem) / 2);
+      //   padding-right: calc((100vw - 550px - 0.5rem) / 2);
+      // }
     `}
   >
     <NavLink

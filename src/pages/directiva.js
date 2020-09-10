@@ -105,9 +105,9 @@ export default () => {
                 <li className='directiva-item'>
                   <div className='directiva-imagen'>
                     <img
-                      alt='moralesdias'
+                      alt='dr rene chirinos'
                       className='alignnone size-full wp-image-47'
-                      src='/directiva/-----'
+                      src='/directiva/drReneChirinos.jpg'
                       css={css` max-height: 150px;`}
                     />
                   </div>

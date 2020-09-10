@@ -16,7 +16,7 @@ const Banners = () => {
       </div>
       <div className='columns'>
         <div className='column has-text-centered'>
-          <a href='/congreso2020-ficha.doc'>Ficha de inscripción (Descargar)</a>
+          <a href='/curso-virtual-Ficha-Incripción.doc'>Ficha de inscripción (Descargar)</a>
         </div>
       </div>
     </>

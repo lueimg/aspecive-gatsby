@@ -7,18 +7,18 @@ const SpeakersGroup1 = [
     twitter: "@DrAlexanderVaccaro",
     description: "",
   },
-  // {
-  //   image: "/congreso/expositores/boulot.jpeg",
-  //   name: "Dr. boulot",
-  //   twitter: "@boulot",
-  //   description: "",
-  // },
-  // {
-  //   image: "/congreso/expositores/montero.jpg",
-  //   name: "Dr. Carlos Montero",
-  //   twitter: "@montero",
-  //   description: "",
-  // },
+  {
+    image: "/congreso/expositores/congreso-ponente-drCarlosMontero.jpg",
+    name: "Dr. Carlos Montero",
+    twitter: "@carlosmontero",
+    description: "",
+  },
+  {
+    image: "/congreso/expositores/congreso-ponente-DrLuisVialle.jpg",
+    name: "Dr. Luis vialle",
+    twitter: "@montero",
+    description: "",
+  },
 ]
 
 const SpeakersGroup2 = [
@@ -66,9 +66,9 @@ export default () => {
 function Speaker (props) {
   return (
     <>
-      <div className='card'>
+      <div className='speaker-comp card'>
         <div className='card-image'>
-          <figure className='image is-1by1'>
+          <figure className='image '>
             <img src={props.image} alt={props.name} />
           </figure>
         </div>
