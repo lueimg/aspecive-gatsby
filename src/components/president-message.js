@@ -2,7 +2,7 @@ import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import Image from "gatsby-image"
 
-function PresidentMessage () {
+function PresidentMessage() {
   const { image } = useStaticQuery(graphql`
     query {
       image: file(relativePath: { eq: "DrAlfonsoBasurcopresidente.jpg" }) {
@@ -17,52 +17,64 @@ function PresidentMessage () {
 
   return (
     <div className="page-block block-bg-b president-message">
-      <div className='columns is-centered'>
-        <div className='column has-text-centered msg-title'>
-            <span className="msg-title-text">
-              Mensaje de nuestro Presidente
-            </span>
+      <div className="columns is-centered">
+        <div className="column has-text-centered msg-title">
+          <span className="msg-title-text">Mensaje de nuestro Presidente</span>
         </div>
       </div>
-      <div className='columns is-centered'>
-        <div className='column is-5'>
+      <div className="columns is-centered">
+        <div className="column is-5">
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <Image fluid={image.sharp.fluid} />
             </div>
           </div>
         </div>
-        <div className='column is-5 msg-body'>
+        <div className="column is-5 msg-body">
           <p>
-            En este nuevo año debemos estar preparados para seguir sirviendo
-            como todos los años en esta labor que no tiene parangón.
+            Con el deseo de que ustedes y toda su familia se encuentren bien,
+            iniciamos otro periodo en nuestra Asociación Peruana de cirugía
+            Vertebral (ASPECIVE). La magnitud de la pandemia que nos asola nadie
+            se la imaginaba, pero es una realidad que debemos enfrentar.
+            Seguramente la lucha contra este virus continuara aun por más tiempo
+            y como profesionales de la salud debemos asumirla como rarea propia.
           </p>
-          <p>Estimados colegas:</p>
+          <p>
+            Este contexto nos obliga asumir nuevos retos en la actividad
+            asistencial y académica, por lo tanto hay que explorar nuevas formas
+            de educación que sean efectivas y permitan aglutinar a todos
+            nuestros asociados e incorporar nuevos colegas.
+          </p>
 
           <p>
-            <strong>
-            Ante el avance de la tecnología, comunicaciones y del conocimiento,
-            se plantean nuevas perspectivas y actuar de las organizaciones
-            científicas. Los que trabajamos en salud interesados en las
-            afecciones de la columna vertebral tenemos un gran reto en la
-            adquisición de las nuevas técnicas a nuestra disposición,
-            conocerlas, encontrar las indicaciones a cada caso, adquirir la
-            experiencia, realizarla con eficiencia y compartir nuestra
-            experiencia. Es por lo tanto importante que las instituciones y
-            sociedades científicas existan por el rol que cumplen. Llamo a los
-            colegas de la orden interesados en la columna vertebral participar,
-            fortalecer e impulsar las actividades de estas instituciones. Cuando
-            se formó ASPECIVE muchos consideramos que era necesario esta
-            sociedad, creemos que la única forma de desarrollar, avanzar en la
-            columna vertebral es en esta institución. El aporte de todos los
-            médicos interesados en ASPECIVE va a manifestarse en el mejoramiento
-            de la atención de nuestros pacientes y en nosotros mismos ya que en
-            algún momento seremos pacientes con afecciones de la columna
-            vertebral y nos beneficiaremos.
-            </strong>
+            in duda, el protagonismo de la actividad educativa virtual se ha
+            multiplicado por doquier, y seguramente va continuar por mucho
+            tiempo, pero es importante buscar la ventana que nos corresponde
+            para tener la debida interaccion con los especialistads de la
+            Cirugia de columna.
           </p>
-          <p>Atentamente,</p>
-          <p>Dr. Alfonso Basurco</p>
+
+          <p>
+            ASPECIVE asume como responsabilidad propia la educación continua en
+            el ámbito de la cirugía de columna. Es por ello que estamos
+            conformando un plan de trabajo siempre teniendo como base las
+            discusiones clínicas, los cursos de la especialidad y por supuesto
+            un CONGRESO.
+          </p>
+
+          <p>
+            Vamos a mantener activa nuestra página web y redes sociales, para
+            interactuar y crear nuevas maneras de participación.
+          </p>
+
+          <p>
+            Un saludo y un abrazo a toda la familia de cirujanos de columna en
+            este momento difícil, esperando que esta circunstancia pase pronto,
+            y al termino estemos más fuertes.
+          </p>
+
+          <p>Cuidense,</p>
+          <p>Dr. Alfonso Basurco Carpio</p>
         </div>
       </div>
     </div>
