@@ -74,7 +74,16 @@ function PresidentMessage() {
           </p>
 
           <p>Cuidense,</p>
-          <p>Dr. Alfonso Basurco Carpio</p>
+          <p>
+            <b>
+            Dr. Alfonso Basurco Carpio
+            </b>
+          </p>
+          <p>
+            <strong>
+              Presidente ASPECIVE
+            </strong>
+          </p>
         </div>
       </div>
     </div>
